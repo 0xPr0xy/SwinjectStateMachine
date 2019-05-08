@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwinjectStateMachine_Tests' do
+  pod 'SwinjectStateMachine', :path => '../'
+  
+  
+end
