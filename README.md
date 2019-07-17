@@ -22,7 +22,7 @@ pod 'SwinjectStateMachine'
 
 ## Author
 
-Peter IJlst, peter.ijlst@themobilecompany.com
+Peter IJlst, 0xPr0xy@gmail.com
 
 ## License
 

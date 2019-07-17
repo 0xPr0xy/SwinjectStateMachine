@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Peter IJlst/SwinjectStateMachine'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/0xPr0xy/SwinjectStateMachine'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Peter IJlst' => 'peter.ijlst@themobilecompany.com' }
-  s.source           = { :git => 'https://github.com/Peter IJlst/SwinjectStateMachine.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Peter IJlst' => '0xPr0xy@gmail.com' }
+  s.source           = { :git => 'https://github.com/0xPr0xy/SwinjectStateMachine.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.source_files = 'SwinjectStateMachine/**/*.{h,m,swift}'
 
-  s.source_files = 'SwinjectStateMachine/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SwinjectStateMachine' => ['SwinjectStateMachine/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Swinject'
+  s.dependency 'SwinjectStoryboard'
+  s.dependency 'SwinjectAutoregistration'
 end
