@@ -166,26 +166,6 @@ open class SwinjectStateMachine<State: StateConfig, Event: EventConfig> {
 
             self.changedState(state: transition.destination, event: event)
             self.callbackQueue.async { callback?(.success) }
-
-            self.callbackQueue.async {
-                let alert = UIAlertController(title: "Changed State",
-                                              message: """
-                    From: \(previousState)
-                    To: \(self.currentState)
-                    Event: \(event)
-                    Transition: \(event.transition)
-                    """,
-                    preferredStyle: .actionSheet)
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
-                    alert.dismiss(animated: true, completion: nil)
-                }))
-                if case TransitionType.showModal = event.transition {
-                    let presented = UIApplication.shared.keyWindow?.rootViewController?.presentedViewController
-                    presented?.present(alert, animated: true)
-                } else {
-                    UIApplication.shared.keyWindow!.rootViewController!.present(alert, animated: true)
-                }
-            }
         }
     }
 
