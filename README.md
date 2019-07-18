@@ -1,6 +1,6 @@
 # SwinjectStateMachine
 
-[![CI Status](https://img.shields.io/travis/Peter IJlst/SwinjectStateMachine.svg?style=flat)](https://travis-ci.org/Peter IJlst/SwinjectStateMachine)
+[![CI Status](https://img.shields.io/travis/0xPr0xy/SwinjectStateMachine.svg?style=flat)](https://travis-ci.org/0xPr0xy/SwinjectStateMachine)
 [![Version](https://img.shields.io/cocoapods/v/SwinjectStateMachine.svg?style=flat)](https://cocoapods.org/pods/SwinjectStateMachine)
 [![License](https://img.shields.io/cocoapods/l/SwinjectStateMachine.svg?style=flat)](https://cocoapods.org/pods/SwinjectStateMachine)
 [![Platform](https://img.shields.io/cocoapods/p/SwinjectStateMachine.svg?style=flat)](https://cocoapods.org/pods/SwinjectStateMachine)
