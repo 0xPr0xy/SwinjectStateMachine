@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+See [SwinjectStateMachine-Demo](https://github.com/0xPr0xy/SwinjectStateMachine-Demo) for a full application
 
 ## Requirements
 
